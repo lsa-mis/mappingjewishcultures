@@ -2,6 +2,13 @@
  * Site header
  */
 .site-header {
+  background-image: url(../../images/cafe-patio.jpg);
+  background-size: 2592px 3487px;
+  background-position: -576px -1072px;
+  z-index: -999;
+  margin-top: 0;
+  width: 100vw;
+  height: 300px;
   border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
@@ -11,11 +18,18 @@
   position: relative;
 }
 
+.site-header-wrapper {
+  background: rgba(112, 73, 56, 0.5);
+  height: 300px;
+
+}
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
+  @include relative-font-size(2.625);
+  font-weight: 600;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-top: 40px;
+  text-align: center;
   float: left;
 
   @include media-query($on-palm) {
@@ -35,7 +49,8 @@
   background-color: $background-color;
   border: 1px solid $border-color-01;
   border-radius: 5px;
-  text-align: right;
+  text-align: center;
+  font-weight: bold;
 
   .nav-trigger {
     display: none;
@@ -74,7 +89,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $site-title-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
