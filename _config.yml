@@ -30,12 +30,12 @@ twitter_username: rich-brew_twitter
 github_username:  rich-brew_github
 
 author: 
-  name: LSA Web & App Services
-  email: lsa-wads-ds@umich.edu
+  name: Prof. Shachar Pinsker
+  email: spinsker@umich.edu
 
 minima: 
   social_links: 
-    twitter: rich-brew_twitter
+    # twitter: rich-brew_twitter
 
 # Build settings
 theme: minima
