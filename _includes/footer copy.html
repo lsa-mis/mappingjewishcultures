@@ -5,41 +5,28 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="{{ 'feed.xml' | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
       {%- if site.author %}
-      If you have questions, comments, or any other feedback, please contact: 
         <ul class="contact-list">
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email footerlink" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
       {%- endif %}
       </div>
       <div class="footer-col">
-        Acknowledgements:
-        <ul class="contact-list" >
-          <li class="p-name"><a class="footerlink" href="https://mcubed.umich.edu/">Mcubed</a></li>
-            <li class="p-name"><a class="footerlink" href="https://lsa.umich.edu/humanities">The Institute for Humanities</a></li>
-            <li class="p-name"><a class="footerlink" href="https://lsa.umich.edu/judaic">The Frankel Center for Judaic Studies</a></li>
-            <li class="p-name"><a class="footerlink" href="https://lsa.umich.edu/middleeast">The Middle East Studies Department at the University of Michigan.</a></li>
-
-        </ul>
-      </div>
-      <div class="footer-col">
-        Navigate
-          <ul class="contact-list">         
-          {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <li class="p-name"><a class="footerlink" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-          {%- endif -%}
-        {%- endfor -%}
-      </ul>
+        <p>{{ site.description | escape }}</p>
       </div>
     </div>
-  </div>
 
     <div class="social-links">
       {%- include social.html -%}
