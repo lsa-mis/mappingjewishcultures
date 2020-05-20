@@ -75,7 +75,7 @@ You can find the source code for Jekyll at GitHub:
       </ul>
     </div>
 
-    <p class = 'team-members-support'>And with support from:</p>
+    <h3 class = 'team-members-support'>And with support from:</h3>
 
     <div class='team-members-section'>
         <ul class = 'team-members-list'>
