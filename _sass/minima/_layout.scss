@@ -2,9 +2,26 @@
  * Site header
  */
 .site-header {
-  background-image: url(../../images/cafe-patio.jpg);
-  background-size: 2592px 3487px;
-  background-position: -576px -1072px;
+  background-image: url(../../images/cafe-patio-bkg.png);
+ /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+ /* Background image doesn't tile */
+  background-repeat: no-repeat;
+ 
+ /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+  // background-attachment: fixed;
+ 
+ /* This is what makes the background image rescale based
+    on the container's size */
+  background-size: cover;
+  // background-size: 1900px 300px;
+ /* Set a background color that will be displayed
+    while the background image is loading */
+  background-color: rgba(112, 73, 56, 0.5);
+  // background-size: 1900px 300px;
+  // // background-position: -576px -1072px;
   margin-top: 0;
   width: 100vw;
   height: 300px;
@@ -12,32 +29,41 @@
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
+  
   // Positioning context for the mobile navigation icon
   position: relative;
+  text-align: center;
 }
 
 .site-header-wrapper {
-  background: rgba(112, 73, 56, 0.5);
+  // background: rgba(112, 73, 56, 0.5);
   height: 300px;
+  
 }
 .site-title {
   @include relative-font-size(2.625);
   font-weight: 600;
   letter-spacing: -1px;
-  margin-bottom: 0;
-  margin-top: 40px;
-  text-align: center;
-  float: left;
-
-  @include media-query($on-palm) {
-    padding-right: 45px;
+  // margin-bottom: 0;
+  padding-top: 100px;
+  a {
+  color: white;
   }
+  // &:visited {
+  //   color: white;
+  // }
+  // // padding-top: 100px;
+  
+  // // float: left;
 
-  &,
-  &:visited {
-    color: $site-title-color;
-  }
+  // @include media-query($on-palm) {
+  //   padding-right: 45px;
+  // }
+
+  // &,
+  // &:visited {
+  //   color: $site-title-color;
+  // }
 }
 
 .site-nav {
@@ -87,7 +113,8 @@
   }
 
   .page-link {
-    color: $site-title-color;
+    // color: $site-title-color;
+    color: $link-base-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -129,6 +156,13 @@
   }
 }
 
+.section-title {
+  color: #A5181E;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
 
 
 /**
