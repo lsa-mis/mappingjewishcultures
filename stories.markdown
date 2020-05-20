@@ -34,7 +34,7 @@ permalink: /stories/
       <a href='{{site.baseurl}}/vienna-story.html'><div class='story-item'>
               <img src='{{site.baseurl}}/images/stories/vienna-cropped.jpg'>
               <h3 class='story-title' id='viennatitle'>Jewish Café Culture in Vienna</h3>               
-          </div></a></li>
+          </div></a>
 
       <a href='{{site.baseurl}}/warsaw-story.html'><div class='story-item'>
           <img src='{{site.baseurl}}/images/stories/warsaw-cropped.jpg'>
