@@ -21,13 +21,11 @@ layout: page
         <h3 class='explore-link'>Cities</h3>
         <div class = 'source-credit'>Postcard of Café Robina, Odessa, early twentieth century</div>
     </div></a>
-
     <a href='{{ "/people/" | relative_url }}'><div class='explore-section-image'>
         <img class='explore-cities-img' src='{{site.baseurl}}/images/explore-people-bg-edited.jpg'>
         <h3 class='explore-link'>People</h3>
         <div class = 'source-credit'>Caricature by Joseph Foshko, YIVO archive</div>
     </div></a>
-
     <a href='{{ "/time/" | relative_url }}'><div class='explore-section-image'>
         <img class='explore-cities-img' src='{{site.baseurl}}/images/ny_illustration.jpg'>
         <h3 class='explore-link'>Time</h3>
@@ -36,7 +34,6 @@ layout: page
         </div>
     </div></a>
   </div>
-
   <div class='explore-section-left'>
     <a href='{{ "/explore/" | relative_url }}' id='explore-section-title-adjusted'><h2 class='section-title'>Explore</h2></a>
     <div class='explore-section-description'>
@@ -44,7 +41,6 @@ layout: page
     </div>
   </div> 
 </div>
-
 <div class='stories-section'>
   <div class='wrapper'>
     <div class='section-title-and-cta'>
@@ -53,7 +49,6 @@ layout: page
     </div>
     <p class='section-description'>Learn more about key people and events which shaped Jewish culture in the café by exploring StoryMaps which offer detailed narratives incorporating historical maps, photographs, paintings, and literature.</p>
   </div>
-
   <div class='wrapper'>
     <div class='featured-stories'>
       <a href='women-cafe-story.html'><div class= 'story-thumbnail'>
