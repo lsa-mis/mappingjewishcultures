@@ -24,9 +24,9 @@
   // // background-position: -576px -1072px;
   margin-top: 0;
   width: 100vw;
-  height: 300px;
-  border-top: 5px solid $border-color-03;
-  border-bottom: 1px solid $border-color-01;
+  height: 200px;
+  border-top: 5px solid $link-base-color;
+  border-bottom: 1px solid $link-base-color;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
   
@@ -37,7 +37,7 @@
 
 .site-header-wrapper {
   // background: rgba(112, 73, 56, 0.5);
-  height: 300px;
+  height: 200px;
   
 }
 .site-title {
@@ -45,7 +45,7 @@
   font-weight: 600;
   letter-spacing: -1px;
   // margin-bottom: 0;
-  padding-top: 100px;
+  padding-top: 75px;
   a {
   color: white;
   }
@@ -157,7 +157,7 @@
 }
 
 .section-title {
-  color: #A5181E;
+  color: $link-base-color;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -169,7 +169,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $border-color-01;
+  border-top: 1px solid $link-base-color;
   padding: $spacing-unit 0;
   background:rgba(112, 73, 56, 0.5);
   // height: 100%;
@@ -215,6 +215,10 @@
 
 .people-element-image {
   width: 70%;
+}
+
+.time-wrapper {
+  height: 700px;
 }
 
 .footer-col-wrapper,
