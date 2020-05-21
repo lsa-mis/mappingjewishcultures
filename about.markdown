@@ -18,7 +18,7 @@ You can find the source code for Jekyll at GitHub:
 [jekyll-organization]: https://github.com/jekyll -->
 
 <div class='about-project'>
-  <div class='wrapper'>
+  <!-- <div class='wrapper'> -->
     <h2 class='section-title' id='about-project-title'>About the Project</h2>
 
     <div class='about-project-description'>
@@ -46,17 +46,16 @@ You can find the source code for Jekyll at GitHub:
           <h2 class='primary-data-title' id='browse-images'>Browse and download<br>images and sources</h2>
       </div></a>
     </div>
-  </div> 
+  <!-- </div>  -->
 </div>
 
 
 <div class = 'about-team'>
-  <div class='wrapper' id='about-project-line'>
+  <div id='about-project-line'>
     <h2 class='section-title' id = 'about-team-title'>About the Team</h2>
     <div class = 'about-team-description'>
         <p>This project was created by a multidisciplinary team of faculty, graduate and undergraduate students, and staff. We span several disciplines including Judaic Studies, Information Science, and Geographic Information Systems:</p>
     </div>
-
     <div class='team-members-section'>
       <ul class = 'team-members-list' id='list1'>
           <li>Professer Shachar Pinsker</li>
@@ -74,9 +73,7 @@ You can find the source code for Jekyll at GitHub:
           <li>Robert Connot</li>
       </ul>
     </div>
-
     <h3 class = 'team-members-support'>And with support from:</h3>
-
     <div class='team-members-section'>
         <ul class = 'team-members-list'>
             <li>Professor Deborah Dash Moore</li>

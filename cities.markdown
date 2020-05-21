@@ -4,7 +4,7 @@ title: Cities
 permalink: /cities/
 ---
 <div class='cities'>
-  <div class='wrapper'>
+  <!-- <div class='wrapper'> -->
     <h2 class='section-title' id='people-title'>Cities</h2>
     <div id="slide">
       <div style="background-color: white; padding: 10px;">
@@ -41,7 +41,7 @@ permalink: /cities/
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </div>
 
 <!-- [jekyll-organization]: https://github.com/jekyll -->

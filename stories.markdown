@@ -4,7 +4,7 @@ title: Stories
 permalink: /stories/
 ---
 <div class='stories'>
-  <div class='wrapper'>
+  <!-- <div class='wrapper'> -->
     <h2 class='section-title' id='people-title'>All Stories</h2>
     <div class='stories-page-description'>
         <div class='wrapper'>
@@ -58,5 +58,5 @@ permalink: /stories/
           </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
  </div> 

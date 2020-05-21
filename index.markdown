@@ -5,13 +5,13 @@
 layout: page
 ---
 <div class="about-section">
-  <div class='wrapper'>
+  <!-- <div class='wrapper'> -->
       <div class='section-title-and-cta'>
         <a href='{{ "/about/" | relative_url }}'><h2 class='section-title'>About</h2></a>
         <a href='{{ "/about/" | relative_url }}' class='homepage-call-to-action'>Learn More ></a>
       </div>
       <p class='section-description'>This project encourages you to examine the confluence between cafés, the urban environment, and the creativity of multilingual Jewish communities. The mapping and digital storytelling tools you will find here are based on extensive research done for Prof. Shachar Pinsker’s book <a href='https://nyupress.org/9781479874385/a-rich-brew/' class='special-link' id='title-link' target='blank'>A Rich Brew: How Cafés Created Modern Jewish Culture</a> (NYU Press, 2018). Consider this site a companion resource, or a standalone project for you to experience.</p>
-  </div>
+  <!-- </div> -->
 </div>
 
 <div class='explore-section'>      
@@ -42,14 +42,14 @@ layout: page
   </div> 
 </div>
 <div class='stories-section'>
-  <div class='wrapper'>
+  <!-- <div class='wrapper'> -->
     <div class='section-title-and-cta'>
         <a href='{{ "/stories/" | relative_url }}'><h2 class='section-title'>Stories</h2></a>
         <a href='{{ "/stories/" | relative_url }}' class='homepage-call-to-action'>View More ></a>
     </div>
     <p class='section-description'>Learn more about key people and events which shaped Jewish culture in the café by exploring StoryMaps which offer detailed narratives incorporating historical maps, photographs, paintings, and literature.</p>
-  </div>
-  <div class='wrapper'>
+  <!-- </div> -->
+  <!-- <div class='wrapper'> -->
     <div class='featured-stories'>
       <a href='women-cafe-story.html'><div class= 'story-thumbnail'>
           <img src='{{site.baseurl}}/images/stories/women.png'>
@@ -74,5 +74,5 @@ layout: page
           <div class='source-credit'>https://collections.mcny.org/Collection/Grand-Theater,-Jacob-B.-Adler,-King-Lear-close-up.-2F3XC5UNBCDZ.html</div>
       </div></a>
     </div>
-  </div>  
+  <!-- </div>   -->
 </div>
