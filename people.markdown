@@ -6,7 +6,7 @@ permalink: /people/
 <div class='people'>
   <div class='wrapper'>
     <h2 class='section-title' id='people-title'>Browse By People</h2>
-    <h5><b>Explore the <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank">full visualization</a> (opens in new tab)</b>
+    <h5><b>Explore the <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank"><button>full visualization</button></a> (opens in new tab)</b>
     </h5>
     <h4>Learn how to use the network visualization tool</h4>
     <h4>Why visualize people as a network?</h4>
@@ -56,7 +56,7 @@ permalink: /people/
     </div>
     <p>The encounter between Asch and Reyzen represents only one of countless pathways of immigration, conversation, and happenstance that connected Jewish cafés across the world.</p>
     <p>Once we realize that Asch, Reyzen, Warsaw, and Kotik's are all connected, our understanding of relationships between café-goers becomes much more complex! The purpose of a network graph is to allow you to investigate specific pathways, as well as see big-picture patterns across hundreds of entities.</p>
-    <h5><b>Explore the <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank">full visualization</a> (opens in new tab)</b>
+    <h5><b>Explore the <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank"><button>full visualization</button></a> (opens in new tab)</b>
     </h5>
   </div>  
 </div>
