@@ -198,7 +198,7 @@
 }
 
 .people-col-wrapper {
-  @include relative-font-size(0.9375);
+  @include relative-font-size(0.9);
   color: $text-color;
   display: flex;
   align-items: flex-start;

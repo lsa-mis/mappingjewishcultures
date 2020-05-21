@@ -55,7 +55,7 @@ permalink: /people/
 
     <p>The encounter between Asch and Reyzen represents only one of countless pathways of immigration, conversation, and happenstance that connected Jewish cafés across the world.</p>
     <p>Once we realize that Asch, Reyzen, Warsaw, and Kotik's are all connected, our understanding of relationships between café-goers becomes much more complex! The purpose of a network graph is to allow you to investigate specific pathways, as well as see big-picture patterns across hundreds of entities.</p>
-    <h4><b>Ready to explore the full visualization? <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html">Click here</a> (opens in new tab)</b>
+    <h4><b>Ready to explore the full visualization? <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank">Click here</a> (opens in new tab)</b>
     </h4>
   </div>  
 </div>
