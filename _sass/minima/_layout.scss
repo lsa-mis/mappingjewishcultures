@@ -201,6 +201,11 @@
 .people-element-image {
   width: 70%;
 }
+#people-button {
+  float: right;
+  background-color: $link-base-color;
+  color: $code-background-color;
+}
 
 .explore-col-wrapper,
 .story-col-wrapper {
