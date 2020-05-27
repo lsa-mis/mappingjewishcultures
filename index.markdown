@@ -38,23 +38,35 @@ layout: page
 </div>
 <div class="story-col-wrapper">
   <div class="story-col">
-   <a class="story-page-link" href='{{ "/women-cafe-story.html" | relative_url }}'>Women in the Café
-    <img class="story-element-image" src='{{site.baseurl}}/images/stories/women.png'></a>
+   <a class="story-page-link" href='{{ "/women-cafe-story.html" | relative_url }}'>
+    <figure>
+      <img class="story-element-image" src='{{site.baseurl}}/images/stories/women.png' alt="Women in the Café">
+          <figcaption>Women in the Café</figcaption>
+    </figure></a>
     <div class='source-credit'>Leah Goldberg, 1935 (Courtesy of the Ganzim Institute, Tel Aviv, and Yair Landau)</div>
   </div>
   <div class="story-col">
-    <a class="story-page-link" href='{{ "/warsaw-story.html" | relative_url }}'>Jewish Café Culture in Warsaw
-    <img class="story-element-image" src='{{site.baseurl}}/images/stories/warsaw.jpg'></a>
+    <a class="story-page-link" href='{{ "/warsaw-story.html" | relative_url }}'>
+      <figure>
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/warsaw.jpg' alt="Jewish Café Culture in Warsaw">
+        <figcaption>Jewish Café Culture in Warsaw</figcaption>
+      </figure></a>
     <div class='source-credit'>Cafe Scene, 1934, Moshe Rynecki, 36.1 x 50 cm</div>
   </div>
   <div class="story-col">
-    <a class="story-page-link" href='{{ "/sholem-story.html" | relative_url }}'>The Travels of Sholem Aleichem and Menakhem Mendl
-    <img class="story-element-image" src='{{site.baseurl}}/images/stories/sholem.jpg'></a>
+    <a class="story-page-link" href='{{ "/sholem-story.html" | relative_url }}'>
+      <figure>
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/sholem.jpg' alt="The Travels of Sholem Aleichem and Menakhem Mendl">
+        <figcaption>The Travels of Sholem Aleichem and Menakhem Mendl</figcaption>
+      </figure></a>
     <div class='source-credit'>http://sholemaleichem.org/writing-desk/</div>
   </div>
   <div class="story-col">
-    <a class="story-page-link" href='{{ "/yiddish-story.html" | relative_url }}'>Yiddish Theater and Cabaret
-    <img class="story-element-image" src='{{site.baseurl}}/images/stories/cabaret.jpg'></a>
+    <a class="story-page-link" href='{{ "/yiddish-story.html" | relative_url }}'>
+      <figure>
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/cabaret.jpg' alt="Yiddish Theater and Cabaret">
+        <figcaption>Yiddish Theater and Cabaret</figcaption>
+      </figure></a>
     <div class='source-credit'>https://collections.mcny.org/Collection/Grand-Theater,-Jacob-B.-Adler,-King-Lear-close-up.-2F3XC5UNBCDZ.html</div>
   </div>
 </div>
