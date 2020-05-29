@@ -21,6 +21,30 @@ You can find the source code for Jekyll at GitHub:
   <!-- <div class='wrapper'> -->
     <h2 class='section-title' id='about-project-title'>About the Project</h2>
 
+  <div class='about-project-description'>
+    <p>Transnational Jewish modernity was born in the café.
+        <br><br>
+        This project examines the confluence between cafés, the urban environment, and the creativity of multilingual Jewish diasporic communities. It uncovers a network of interconnected people and coffeehouses that were central to the modern Jewish experience in a time of migration and urbanization. Explore all cafés, cities, and people, or consider how culture traveled between urban centers such as Odessa, Vienna, Warsaw, Berlin, Tel Aviv, and New York City. This website will continue to grow and change over time. Stay tuned for updates and additional tools and materials. You can access the website and digital tools from any device, but some portions of the site are optimized for viewing and exploring on a desktop or laptop computer.
+    </p>
+  </div>
+  <h3 class='section-title' id='about-project-title'>Explore the Primary Data</h3>
+<div class="explore-col-wrapper">
+  <div class="explore-col">
+    <a class="explore-page-link" href='{{ "/cities/" | relative_url }}'>Cities
+    <img class="explore-element-image" src='{{site.baseurl}}/images/explore-cities.jpg'></a>
+  </div>
+  <div class="explore-col">
+    <a class="explore-page-link" href='{{ "/people/" | relative_url }}'>People
+    <img class="explore-element-image" src='{{site.baseurl}}/images/explore-people-bg-edited.jpg'></a> 
+  </div>
+  <div class="explore-col">
+    <a class="explore-page-link" href='{{ "/time/" | relative_url }}'>Time
+    <img class="explore-element-image" src='{{site.baseurl}}/images/ny_illustration.jpg'></a>
+  </div>
+</div>
+
+
+
     <div class='about-project-description'>
       <p>Transnational Jewish modernity was born in the café.
           <br><br>
