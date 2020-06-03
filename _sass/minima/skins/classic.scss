@@ -7,9 +7,12 @@ $brand-color-dark:      darken($brand-color, 25%) !default;
 $site-title-color:      $brand-color-light !default;
 
 $text-color:            #111111 !default;
+$subheader-text-base-color:  #000;
 $background-color:      #fdfdfd !default;
 $code-background-color: #eeeeff !default;
 $footer-background-color: #333333 !default;
+
+$header-base-color:       #851a1a !default;
 
 $link-base-color:       #851a1a !default;
 $link-visited-color:    darken($link-base-color, 15%) !default;
@@ -18,6 +21,8 @@ $link-hover-color:      darken($link-base-color, 10%) !default;
 $border-color-01:       $brand-color-light !default;
 $border-color-02:       lighten($brand-color, 35%) !default;
 $border-color-03:       $brand-color-dark !default;
+
+$button-color:          #611212 !default;
 
 $table-text-color:      lighten($text-color, 18%) !default;
 $table-zebra-color:     lighten($brand-color, 46%) !default;

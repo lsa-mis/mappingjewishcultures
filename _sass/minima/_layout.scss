@@ -42,13 +42,17 @@
 }
 .site-title {
   @include relative-font-size(2.625);
-  font-weight: 600;
+  font-weight: 200;
   letter-spacing: -1px;
-  // margin-bottom: 0;
-  padding-top: 75px;
+  margin-top: 70px;
+
   a {
   color: white;
+  background-color: $footer-background-color;
+  padding: 0 20px;
+
   }
+  
 }
 
 .site-nav {
@@ -98,11 +102,11 @@
   }
 
   .page-link {
-    // color: $site-title-color;
     color: $link-base-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
+    font-weight: normal;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -365,9 +369,20 @@
   height: 600px;
   overflow-y: scroll;
 
+  h1 {
+    color: $header-base-color;
+    // font-size: 32px;
+  }
 
-  h1, h2, h3 { margin-top: $spacing-unit * 2 }
-  h4, h5, h6 { margin-top: $spacing-unit }
+  h1, h2, h3 { 
+    margin-top: $spacing-unit * 2; 
+    color: $subheader-text-base-color;
+  }
+
+  h4, h5, h6 { 
+    margin-top: $spacing-unit;
+    color: $subheader-text-base-color;
+  }
 
   h2 {
     @include relative-font-size(1.75);
