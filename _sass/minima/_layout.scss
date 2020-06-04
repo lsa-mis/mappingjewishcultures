@@ -145,13 +145,13 @@
   }
 }
 
-.section-title {
-  color: $link-base-color;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 44px;
-}
+// h2 {
+//   color: #000;
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 28px;
+//   line-height: 44px;
+// }
 
 
 /**
@@ -205,29 +205,96 @@
 .people-element-image {
   width: 70%;
 }
+
 #people-button {
   float: right;
   background-color: $link-base-color;
   color: $code-background-color;
 }
 
+#stories-button {
+  // float: center;
+  background-color: $link-base-color;
+  height: 50px;
+  width: 60%;
+  font-size: 30px;
+
+  a {
+    color: white;
+  }
+}
+
+.bottom-btn {
+  padding-top: 20px;
+}
+
 .explore-col-wrapper,
 .story-col-wrapper {
-  @include relative-font-size(0.9);
+  // @include relative-font-size(0.9);
   color: $text-color;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: nowrap;
-}
+  flex-wrap: wrap;
 
-.explore-page-link,
-.story-page-link {
-  // color: $site-title-color;
-  color: $link-base-color;
-  font-weight: bold;
-  // line-height: $base-line-height;
+  .explore-col{
+    width: $content-width / 2.5;
+    img {
+      max-width: 100%;
+      vertical-align: top;
+    }
+  }
+
+  .story-col {
+    width: $content-width / 4;
+    img {
+      max-width: 100%;
+      vertical-align: top;
+    }
+  }
+
+  .explore-element-image {
+    width: 40%;
+  }
+
+  .story-element-image {
+    // width: 50%;
+    padding-top: 5px;
+    height: 150px;
+  }
+
+  .explore-col-title {
+  // .story-col-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: $subheader-text-base-color;
+  }
+
+  .explore-col-text {
+  // .story-col-text {
+    padding-left: 5px;
+    font-size: $base-font-size;
+    // font-weight: bold;
+    color: $subheader-text-base-color;
+    width: 55%;
+    float: right;
+  }
+
+  .explore-page-link {
+  // .story-page-link {
+    // color: $site-title-color;
+    color: $subheader-text-base-color;
+    font-weight: bold;
+    // line-height: $base-line-height;
+    a {
+      padding: 0 20px;
+    
+      }
+      &:visited {
+        color: $subheader-text-base-color;
+      }
+  }
 }
 
 .book-title-link {
@@ -235,9 +302,9 @@
   font-style: italic;
 }
 
-.story-col {
-  width: 22%;
-}
+// .story-col {
+//   width: 22%;
+// }
 
 .source-credit {
   display: none;
@@ -312,105 +379,133 @@
 /**
  * Page content
  */
-.page-content {
-  padding: $spacing-unit 0;
-  flex: 1 0 auto;
-}
 
-.page-heading {
-  @include relative-font-size(2);
-}
+.page {
+  .page-content {
+    padding: $spacing-unit 0;
+    flex: 1 0 auto;
+  }
 
-.post-list-heading {
-  @include relative-font-size(1.75);
-}
+  .page-heading {
+    @include relative-font-size(2);
+  }
 
-.post-list {
-  margin-left: 0;
-  list-style: none;
+  h1 {
+    font-size: 32px;
+    color: $header-base-color;
+    margin-top: $spacing-unit * 2;
+  }
 
-  > li {
-    margin-bottom: $spacing-unit;
+  h2, h3, h4 {
+    color: $subheader-text-base-color;
+    font-weight: bold; 
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-top: $spacing-unit * 2;
+  }
+
+  h3 {
+    font-size: 26px;
+    margin-top: $spacing-unit * 2;
+  }
+
+  h4 {
+    font-size: 24px;
+    margin-top: $spacing-unit;
   }
 }
+// .post-list-heading {
+//   @include relative-font-size(1.75);
+// }
 
-.post-meta {
-  font-size: $small-font-size;
-  color: $brand-color;
-}
+// .post-list {
+//   margin-left: 0;
+//   list-style: none;
 
-.post-link {
-  display: block;
-  @include relative-font-size(1.5);
-}
+//   > li {
+//     margin-bottom: $spacing-unit;
+//   }
+// }
+
+// .post-meta {
+//   font-size: $small-font-size;
+//   color: $brand-color;
+// }
+
+// .post-link {
+//   display: block;
+//   @include relative-font-size(1.5);
+// }
 
 
 
 /**
- * Posts
+ * Page
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
+// .post-header {
+//   margin-bottom: $spacing-unit;
+// }
 
-.post-title,
-.post-content h1 {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1.15;
+// .post-title,
+// .post-content h1 {
+//   @include relative-font-size(2.625);
+//   letter-spacing: -1px;
+//   line-height: 1.15;
 
-  @media screen and (min-width: $on-large) {
-    @include relative-font-size(2.625);
-  }
-}
+//   @media screen and (min-width: $on-large) {
+//     @include relative-font-size(2.625);
+//   }
+// }
 
-.post-content {
-  margin-bottom: $spacing-unit;
-  height: 600px;
-  overflow-y: scroll;
+// .post-content {
+//   margin-bottom: $spacing-unit;
+//   height: 600px;
+//   overflow-y: scroll;
 
-  h1 {
-    color: $header-base-color;
-    // font-size: 32px;
-  }
+//   h1 {
+//     color: $header-base-color;
+//     // font-size: 32px;
+//   }
 
-  h1, h2, h3 { 
-    margin-top: $spacing-unit * 2; 
-    color: $subheader-text-base-color;
-  }
+//   h1, h2, h3 { 
+//     margin-top: $spacing-unit * 2; 
+//     color: $subheader-text-base-color;
+//   }
 
-  h4, h5, h6 { 
-    margin-top: $spacing-unit;
-    color: $subheader-text-base-color;
-  }
+//   h4, h5, h6 { 
+//     margin-top: $spacing-unit;
+//     color: $subheader-text-base-color;
+//   }
 
-  h2 {
-    @include relative-font-size(1.75);
+//   h2 {
+//     @include relative-font-size(1.75);
 
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(2);
-    }
-  }
+//     @media screen and (min-width: $on-large) {
+//       @include relative-font-size(2);
+//     }
+//   }
 
-  h3 {
-    @include relative-font-size(1.375);
+//   h3 {
+//     @include relative-font-size(1.375);
 
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(1.625);
-    }
-  }
+//     @media screen and (min-width: $on-large) {
+//       @include relative-font-size(1.625);
+//     }
+//   }
 
-  h4 {
-    @include relative-font-size(1.25);
-  }
+//   h4 {
+//     @include relative-font-size(1.25);
+//   }
 
-  h5 {
-    @include relative-font-size(1.125);
-  }
-  h6 {
-    @include relative-font-size(1.0625);
-  }
-}
+//   h5 {
+//     @include relative-font-size(1.125);
+//   }
+//   h6 {
+//     @include relative-font-size(1.0625);
+//   }
+// }
 
 
 .social-media-list {

@@ -107,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
@@ -263,7 +262,8 @@ table {
     }
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    // padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    vertical-align: top;
   }
   th {
     background-color: $table-header-bg-color;
