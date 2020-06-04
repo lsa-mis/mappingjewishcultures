@@ -24,7 +24,7 @@ permalink: /
       </div>
     </div>
     <div class="explore-col">
-      <img class="explore-element-image" src='{{site.baseurl}}/images/people/people5.png'>
+      <img class="explore-element-image" src='{{site.baseurl}}/images/people/People5.png'>
       <div class="explore-col-text">
         <a href='{{ "people" | relative_url }}'><span class="explore-col-title">People</span>
         <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
