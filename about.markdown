@@ -16,19 +16,19 @@ permalink: /about/
   <div class="explore-data-col-wrapper">
     <div class="explore-data-col">
       <a class="explore-data-page-link" href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/cafejson/' target="_blank">
-      <img class="explore-data-element-image" src='{{site.baseurl}}/images/cafe-dataset.jpg'>
+      <img class="explore-data-element-image" src='{{site.baseurl}}/images/cafe-dataset.jpg' alt="jewish cafe dataset">
       <h5>Download the café dataset<br>(formatted as GeoJSON)</h5>
       </a>
     </div>
     <div class="explore-data-col">
       <a class="explore-data-page-link" href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/personjson/' target="_blank">
-      <img class="explore-data-element-image" src='{{site.baseurl}}/images/oldcouple-cropped.jpg'>
+      <img class="explore-data-element-image" src='{{site.baseurl}}/images/oldcouple-cropped.jpg' alt="jewish cafe people dataset">
       <h5>Download the people dataset<br>(formatted as GeoJSON)</h5>
       </a>
     </div>
     <div class="explore-data-col">
       <a class="explore-data-page-link" href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/cafes' target="_blank">
-      <img class="explore-data-element-image" src='{{site.baseurl}}/images/browse-and-download-cropped.jpg'>
+      <img class="explore-data-element-image" src='{{site.baseurl}}/images/browse-and-download-cropped.jpg' alt="jewish cafe image set">
       <h5>Browse and download<br>images and sources</h5>
       </a>
     </div>

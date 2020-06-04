@@ -16,7 +16,7 @@ permalink: /
 
   <div class="explore-col-wrapper">
     <div class="explore-col">
-      <img class="explore-element-image" src='{{site.baseurl}}/images/index-cities.png'>
+      <img class="explore-element-image" src='{{site.baseurl}}/images/index-cities.png' alt="antique city map">
       <div class="explore-col-text">
         <a href='{{ "cities" | relative_url }}'><span class="explore-col-title">Cities</span>
         <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
@@ -24,7 +24,7 @@ permalink: /
       </div>
     </div>
     <div class="explore-col">
-      <img class="explore-element-image" src='{{site.baseurl}}/images/people/People5.png'>
+      <img class="explore-element-image" src='{{site.baseurl}}/images/people/People5.png' alt="people network map showing 7 nodes">
       <div class="explore-col-text">
         <a href='{{ "people" | relative_url }}'><span class="explore-col-title">People</span>
         <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
@@ -32,7 +32,7 @@ permalink: /
       </div>
     </div>
     <div class="explore-col">
-      <img class="explore-element-image" src='{{site.baseurl}}/images/index-time.png'>
+      <img class="explore-element-image" src='{{site.baseurl}}/images/index-time.png' alt="historic drawing of cafe patrons">
       <div class="explore-col-text">
         <a href='{{ "time" | relative_url }}'><span class="explore-col-title">Time</span>
         <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
@@ -63,12 +63,12 @@ permalink: /
   </div>
   <div class="story-col">
     <a class="story-page-link" href='{{ "stories/berlin-story" | relative_url }}'>
-      <img class="story-element-image" src='{{site.baseurl}}/images/berlinbtn.png' alt="Yiddish Theater and Cabaret">
+      <img class="story-element-image" src='{{site.baseurl}}/images/berlinbtn.png' alt="Jewish Café Culture in Berlin">
         </a>
   </div>
   <div class="story-col">
     <a class="story-page-link" href='{{ "stories/newyork-story" | relative_url }}'>
-      <img class="story-element-image" src='{{site.baseurl}}/images/newyorkbtn.png' alt="Yiddish Theater and Cabaret">
+      <img class="story-element-image" src='{{site.baseurl}}/images/newyorkbtn.png' alt="Jewish Café Culture in New York">
         </a>
   </div>
 </div>
