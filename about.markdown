@@ -3,22 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll -->
-
 <div class='about-project'>
-  <!-- <div class='wrapper'> -->
     <h1 class='section-title' id='about-project-title'>About the Project</h1>
 
   <div class='about-project-description'>
@@ -31,38 +16,23 @@ You can find the source code for Jekyll at GitHub:
   <div class="explore-data-col-wrapper">
     <div class="explore-data-col">
       <a class="explore-data-page-link" href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/cafejson/' target="_blank">
-      <img class="explore-data-element-image" src='{{site.baseurl}}/images/cafe-dataset.jpg'></a>
+      <img class="explore-data-element-image" src='{{site.baseurl}}/images/cafe-dataset.jpg'>
       <h5>Download the café dataset<br>(formatted as GeoJSON)</h5>
+      </a>
     </div>
     <div class="explore-data-col">
       <a class="explore-data-page-link" href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/personjson/' target="_blank">
-      <img class="explore-data-element-image" src='{{site.baseurl}}/images/oldcouple-cropped.jpg'></a>
+      <img class="explore-data-element-image" src='{{site.baseurl}}/images/oldcouple-cropped.jpg'>
       <h5>Download the people dataset<br>(formatted as GeoJSON)</h5>
+      </a>
     </div>
     <div class="explore-data-col">
       <a class="explore-data-page-link" href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/cafes' target="_blank">
-      <img class="explore-data-element-image" src='{{site.baseurl}}/images/browse-and-download-cropped.jpg'></a>
+      <img class="explore-data-element-image" src='{{site.baseurl}}/images/browse-and-download-cropped.jpg'>
       <h5>Browse and download<br>images and sources</h5>
+      </a>
     </div>
   </div>
-
-
-      <!-- <a href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/cafejson/' target="_blank"><div class='primary-data-button'>
-          <img src = '{{site.baseurl}}/images/cafe-dataset.jpg'>
-          <h2 class='primary-data-title' id='cafe-dataset'>Download the café dataset<br>(formatted as GeoJSON)</h2>
-      </div></a>
-
-      <a href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/personjson/' target="_blank"><div class='primary-data-button'>
-          <img src = '{{site.baseurl}}/images/oldcouple-cropped.jpg'>
-          <h2 class='primary-data-title' id='people-dataset'>Download the people dataset<br>(formatted as GeoJSON)</h2>
-      </div></a>
-
-      <a href='http://ec2-52-11-202-148.us-west-2.compute.amazonaws.com/cafes' target="_blank"><div class='primary-data-button'>
-          <img src = '{{site.baseurl}}/images/browse-and-download-cropped.jpg'>
-          <h2 class='primary-data-title' id='browse-images'>Browse and download<br>images and sources</h2>
-      </div></a>
-    </div> -->
-
 </div>
 
 

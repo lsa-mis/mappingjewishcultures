@@ -241,6 +241,7 @@
 }
 
 .explore-col-wrapper,
+.explore-data-col-wrapper,
 .story-col-wrapper {
   // @include relative-font-size(0.9);
   color: $text-color;
@@ -258,6 +259,14 @@
     }
   }
 
+  .explore-data-col{
+    width: $content-width / 4;
+    img {
+      max-width: 100%;
+      vertical-align: top;
+    }
+  }
+
   .story-col {
     width: $content-width / 4;
     img {
@@ -268,6 +277,10 @@
 
   .explore-element-image {
     width: 40%;
+  }
+
+  .explore-data-element-image {
+    width: 100%;
   }
 
   .story-element-image {
