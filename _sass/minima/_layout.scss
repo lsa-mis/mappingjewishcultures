@@ -236,6 +236,19 @@
   }
 }
 
+.story-button-small {
+  // float: center;
+  background-color: $link-base-color;
+  height: 30px;
+  width: 20%;
+  font-size: 16px;
+  margin-top: 10px;
+
+  a {
+    color: white;
+  }
+}
+
 .bottom-btn {
   padding-top: 20px;
 }
