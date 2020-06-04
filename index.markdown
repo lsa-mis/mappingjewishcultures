@@ -50,16 +50,19 @@ permalink: /
    <a class="story-page-link" href='{{ "stories/women-cafe-story" | relative_url }}'>
       <img class="story-element-image" src='{{site.baseurl}}/images/womenbtn.png' alt="Women in the Café">
     </a>
+    <div class='source-credit'>Leah Goldberg, 1935 (Courtesy of the Ganzim Institute, Tel Aviv, and Yair Landau)</div>
   </div>
   <div class="story-col">
     <a class="story-page-link" href='{{ "stories/warsaw-story" | relative_url }}'>
       <img class="story-element-image" src='{{site.baseurl}}/images/warsawbtn.png' alt="Jewish Café Culture in Warsaw">
-        </a>
+    </a>
+    <div class='source-credit'>Cafe Scene, 1934, Moshe Rynecki</div>
   </div>
   <div class="story-col">
     <a class="story-page-link" href='{{ "stories/sholem-story" | relative_url }}'>
       <img class="story-element-image" src='{{site.baseurl}}/images/travelbtn.png' alt="The Travels of Sholem Aleichem and Menakhem Mendl">
-        </a>
+    </a>
+    <div class='source-credit'>http://sholemaleichem.org/writing-desk/</div>
   </div>
   <div class="story-col">
     <a class="story-page-link" href='{{ "stories/berlin-story" | relative_url }}'>
