@@ -257,6 +257,7 @@
       max-width: 100%;
       vertical-align: top;
     }
+    padding-top: 20px;
   }
 
   .explore-data-col{
@@ -275,8 +276,13 @@
     }
   }
 
+  .explore-text {
+    color: $text-color;
+    font-size: $small-font-size;
+  }
   .explore-element-image {
     width: 40%;
+    height: 100px;
   }
 
   .explore-data-element-image {

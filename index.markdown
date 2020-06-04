@@ -16,24 +16,27 @@ permalink: /
 
   <div class="explore-col-wrapper">
     <div class="explore-col">
-      <img class="explore-element-image" src='{{site.baseurl}}/images/explore-cities.jpg'>
+      <img class="explore-element-image" src='{{site.baseurl}}/images/index-cities.png'>
       <div class="explore-col-text">
-        <span class="explore-col-title">Cities</span>
-        <p>Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        <a href='{{ "cities" | relative_url }}'><span class="explore-col-title">Cities</span>
+        <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        </a>
       </div>
     </div>
     <div class="explore-col">
       <img class="explore-element-image" src='{{site.baseurl}}/images/people/people5.png'>
       <div class="explore-col-text">
-        <span class="explore-col-title">People</span>
-        <p>Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        <a href='{{ "people" | relative_url }}'><span class="explore-col-title">People</span>
+        <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        </a>
       </div>
     </div>
     <div class="explore-col">
-      <img class="explore-element-image" src='{{site.baseurl}}/images/ny_illustration.jpg'>
+      <img class="explore-element-image" src='{{site.baseurl}}/images/index-time.png'>
       <div class="explore-col-text">
-        <span class="explore-col-title">Time</span>
-        <p>Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        <a href='{{ "time" | relative_url }}'><span class="explore-col-title">Time</span>
+        <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        </a>
       </div>
     </div>
   </div>
