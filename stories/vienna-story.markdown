@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: Stories/women
+
 permalink: stories/vienna-story/
 ---
 
