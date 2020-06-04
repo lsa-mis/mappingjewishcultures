@@ -164,6 +164,18 @@
   // height: 100%;
   // width: 100%;
   font-family: 'Open Sans', sans-serif;
+
+  a {
+    color: white;
+
+    &:visited { 
+      color: white;
+    }
+
+    &:hover { 
+      color:  lighten($link-base-color, 65%);
+    }   
+  }
 }
 
 .footer-heading {
@@ -171,10 +183,10 @@
   margin-bottom: $spacing-unit / 2;
 }
 
-.footerlink {
-  color: white;
-  text-decoration: underline;
-}
+// .footerlink {
+//   color: white;
+//   text-decoration: underline;
+// }
 
 .feed-subscribe .svg-icon {
   padding: 5px 5px 2px 0
