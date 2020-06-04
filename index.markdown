@@ -19,7 +19,7 @@ permalink: /
       <img class="explore-element-image" src='{{site.baseurl}}/images/index-cities.png' alt="antique city map">
       <div class="explore-col-text">
         <a href='{{ "cities" | relative_url }}'><span class="explore-col-title">Cities</span>
-        <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours through digital mapping.</p>
         </a>
       </div>
     </div>
@@ -27,7 +27,7 @@ permalink: /
       <img class="explore-element-image" src='{{site.baseurl}}/images/people/People5.png' alt="people network map showing 7 nodes">
       <div class="explore-col-text">
         <a href='{{ "people" | relative_url }}'><span class="explore-col-title">People</span>
-        <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        <p class="explore-text">Learn more about writers, artists, journalists, activists, and actors. by discovering connections between people and cafes.</p>
         </a>
       </div>
     </div>
@@ -35,7 +35,7 @@ permalink: /
       <img class="explore-element-image" src='{{site.baseurl}}/images/index-time.png' alt="historic drawing of cafe patrons">
       <div class="explore-col-text">
         <a href='{{ "time" | relative_url }}'><span class="explore-col-title">Time</span>
-        <p class="explore-text">Experience the culture geographically by viewing cafes and taking guided tours though digital mapping.</p>
+        <p class="explore-text">Witness the expansion of cafés in Jewish culture dating back to the 1800s with a timeline.</p>
         </a>
       </div>
     </div>
