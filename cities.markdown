@@ -51,7 +51,7 @@ permalink: /cities/
 
   </style>
 <script src="{{site.baseurl}}/cities.js"></script>
-<h2 class='section-title' id='people-title'>Cities</h2>
+<h1 class='section-title' id='people-title'>Explore Cities</h1>
 <div id="slide">
   <div style="background-color: white; padding: 10px;">
     <h2 style="font-size: 1.5em;">How to use the Browse by City tool</h2>
