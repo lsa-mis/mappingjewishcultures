@@ -5,8 +5,11 @@ permalink: /cities/
 ---
 
 <h1 class='section-title' id='people-title'>Explore Cities</h1>
+<div>
+  <p>Explore an interactive map of cafés and landmarks important to Jewish culture in New York, Berlin, Odessa, Warsaw, Vienna, and Tel Aviv. This map can be adjusted to show points in a single city during a specfic timeframe or opt for a story map to take a guided tour of a city’s impact on modern Jewish culture.</p>
+</div>
 <div class="time-wrapper">
-  <iframe src="https://lsa-mis.github.io/mappingjewishcultures/cities/cities-raw.html" scrolling="yes" width="100%" height="100%" frameborder="0">
+  <iframe src="{{site.baseurl}}/cities-raw/cities-raw.html" scrolling="yes" width="100%" height="100%" frameborder="0">
     <div id="viewDiv"></div>
     <div id="search">
       <div id ="yearRangeContainer">
@@ -20,10 +23,6 @@ permalink: /cities/
     </div>
   </iframe>
 </div>
-<div>
-  <p>Explore an interactive map of cafés and landmarks important to Jewish culture in New York, Berlin, Odessa, Warsaw, Vienna, and Tel Aviv. This map can be adjusted to show points in a single city during a specfic timeframe or opt for a story map to take a guided tour of a city’s impact on modern Jewish culture.</p>
-</div>
-
 <h2>How to use the Browse by City tool</h2>
 <div id="slideold">
   <div style="background-color: white; padding: 10px;">
