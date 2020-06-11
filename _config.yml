@@ -26,6 +26,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   An extension of the research presented in A Rich Brew, mapping and digital 
   storytelling tools on the site provides a deeper, illustrative look 
   into how cafes and social spaces helped to shape Jewish culture.
+  Judaic
+  Judaic studies
+  Coffee culture
+  Jewish culture
+  Digital mapping
+  Historical mapping
+  StoryMap
+  Modern Jewish Culture
+
 baseurl: "/mappingjewishcultures" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-167950912-1
