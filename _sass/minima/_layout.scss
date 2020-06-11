@@ -832,7 +832,7 @@
   display: inline-block; /* Make the width of box same as image */
 }
 .box .text{
-  padding: 10px 0px;
+  padding: auto 0;
   position: absolute;
   z-index: 999;
   margin: 0 auto;

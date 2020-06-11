@@ -45,7 +45,7 @@ permalink: /
 <h2>Stories</h2>
 <p>Choose a StoryMap to learn more about key people and events which shaped Jewish culture in the café.  Each story offers detailed narratives incorporating historical maps, photographs, paintings, and literature.</p>
 
-<div class="story-col-wrapper">
+<!-- <div class="story-col-wrapper">
   <div class="story-col">
    <a class="story-page-link" href='{{ "stories/women-cafe-story" | relative_url }}'>
       <img class="story-element-image" src='{{site.baseurl}}/images/womenbtn.png' alt="Women in the Café">
@@ -75,7 +75,7 @@ permalink: /
         </a>
   </div>
 </div>
-<hr>
+<hr> -->
 <div class="story-col-wrapper">
   <div class="story-col">
     <a href='{{ "stories/women-cafe-story" | relative_url }}'>
