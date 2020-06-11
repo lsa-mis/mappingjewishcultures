@@ -75,6 +75,56 @@ permalink: /
         </a>
   </div>
 </div>
+<hr>
+<div class="story-col-wrapper">
+  <div class="story-col">
+    <a href='{{ "stories/women-cafe-story" | relative_url }}'>
+      <div class="box">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/women.png' alt="Women in the Café">
+        <div class="text">Women in the Café<br>&nbsp;</div>
+      </div>
+    </a> 
+    <div class='source-credit'>Leah Goldberg, 1935 (Courtesy of the Ganzim Institute, Tel Aviv, and Yair Landau)</div>
+  </div>
+  <div class="story-col">
+    <a href='{{ "stories/warsaw-story" | relative_url }}'>
+      <div class="box">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/warsaw.jpg' alt="Jewish Café Culture in Warsaw">
+        <div class="text">Jewish Café Culture<br> in Warsaw</div>
+      </div>
+    </a> 
+    <div class='source-credit'>Cafe Scene, 1934, Moshe Rynecki</div>
+  </div>
+  <div class="story-col">
+    <a href='{{ "stories/sholem-story" | relative_url }}'>
+      <div class="box">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/sholem.jpg' alt="The Travels of Sholem Aleichem and Menakhem Mendl">
+        <div class="text">The Travels of Sholem Aleichem and Menakhem Mendl</div>
+      </div>
+    </a> 
+    <div class='source-credit'>http://sholemaleichem.org/writing-desk/</div>
+  </div>
+  <div class="story-col">
+    <a href='{{ "stories/berlin-story" | relative_url }}'>
+      <div class="box">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/Berlin.jpg' alt="Jewish Café Culture in Berlin">
+        <div class="text">Jewish Café Culture<br> in Berlin</div>
+      </div>
+    </a> 
+  </div>
+  <div class="story-col">
+    <a href='{{ "stories/newyork-story" | relative_url }}'>
+      <div class="box">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/New-York.png' alt="Jewish Café Culture in New York">
+        <div class="text">Jewish Café Culture<br> in New York</div>
+      </div>
+    </a> 
+  </div>
+</div>
+
+
+
+
 <div class="bottom-btn" align="center">
  <button id="stories-button"><a href='{{ "/stories/" | relative_url }}'>View All Stories</a></button>
 </div>

@@ -823,3 +823,26 @@
       padding-bottom: 2.5px;
   }
 }
+
+
+// Buttons with text over image elements
+
+.box{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+  padding: 10px 0px;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 50%; /* Adjust this value to move the positioned div up and down */
+  background: $link-base-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size * 0.75;
+  color: white;
+  width: 100%; /* Set the width of the positioned div */
+}
