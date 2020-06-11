@@ -226,26 +226,30 @@
 
 #stories-button {
   // float: center;
-  background-color: $link-base-color;
+  // background-color: $link-base-color;
   height: 50px;
   width: 60%;
   font-size: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, $link-base-color, lighten($link-base-color, 15%));
 
   a {
-    color: white;
+    color: $button-text-color;
   }
 }
 
 .story-button-small {
   // float: center;
-  background-color: $link-base-color;
+  // background-color: $link-base-color;
+  background-image: linear-gradient(to bottom right, $link-base-color, lighten($link-base-color, 15%));
   height: 30px;
   width: 20%;
   font-size: 16px;
   margin-top: 10px;
+  border-radius: 10px;
 
   a {
-    color: white;
+    color: $button-text-color;
   }
 }
 
