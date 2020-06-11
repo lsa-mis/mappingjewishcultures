@@ -220,8 +220,16 @@
 
 #people-button {
   float: right;
-  background-color: $link-base-color;
+  padding: 7px;
+  margin: 5px;
+  // background-color: $link-base-color;
+  background-image: linear-gradient(to bottom right, $link-base-color, lighten($link-base-color, 15%));
   color: $code-background-color;
+  border-radius: 10px;
+
+  a {
+    color: $button-text-color;
+  }
 }
 
 #stories-button {

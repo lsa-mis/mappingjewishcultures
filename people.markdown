@@ -6,7 +6,8 @@ permalink: /people/
 <div class='people'>
   <!-- <div class='wrapper'> -->
     <h1 class='section-title' id='people-title'>Browse By People</h1>
-    <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank"><button id="people-button">Explore the full visualization<br />(opens in new window)</button></a>
+    <!-- <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank"><button id="people-button">Explore the full visualization<br />(opens in new window)</button></a> -->
+    <button id="people-button" ><a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank">Explore the full visualization<br />(opens in new window)</a></button>
     <h4>Learn how to use the network visualization tool</h4>
     <h4>Why visualize people as a network?</h4>
     <p>A <strong>network graph</strong> is a visual representation of the interconnections between many entities.</p>
