@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Time
+description: >- 
+  View a timeline of cafés established from the early 19th century to examine their contributions to European, American, and Middle Eastern History.
 permalink: /time/
 ---
 

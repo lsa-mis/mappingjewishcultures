@@ -1,6 +1,8 @@
 ---
 layout: page
 title: People
+description: >- 
+  Explore a network visualization to discover connections between coffeehouses, writers, artists, journalists and how they contributed to the cultural geography of 19th and 20th Century Jewish culture
 permalink: /people/
 ---
 <div class='people'>

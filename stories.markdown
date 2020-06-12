@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Stories
+description: >- 
+  Take an in-depth look at historical maps, photographs, paintings, literature choosing a unique Story Map focused on Jewish cafe culture. Themes for these stories range from gender within the cafe to the rise of the Yiddish Theater.
 permalink: /stories/
 ---
 <div class='stories'>

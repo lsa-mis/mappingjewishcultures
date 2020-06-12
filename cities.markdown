@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Cities
+description: >- 
+  Explore cities like Odessa, Warsaw, New York City, and Tel Aviv to uncover a network of interconnected cafés that were central to the modern Jewish experience.
 permalink: /cities/
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+description: >- 
+  The Mapping Jewish Cultures project uncovers a network of interconnected people and coffeehouses that were central to the modern Jewish experience in a time of migration and urbanization.
 permalink: /about/
 ---
 <div class='about-project'>

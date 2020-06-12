@@ -4,6 +4,8 @@
 
 layout: page
 title: Home
+description: >- 
+  Experience Jewish cultural history by examining the confluence between cafés, the urban environment, and the creativity of multilingual European communities. An extension of the research presented in A Rich Brew, mapping and digital storytelling tools on the site provides a deeper, illustrative look into how cafes and social spaces helped to shape Jewish culture.
 permalink: /
 ---
 <div class="about-section">
