@@ -36,7 +36,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Modern Jewish Culture
 
 baseurl: "/mappingjewishcultures" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://richbrew.org" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-167950912-1
 
 twitter_username: rich-brew_twitter
