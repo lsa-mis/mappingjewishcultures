@@ -104,7 +104,7 @@ permalink: /
         <div class="text">The Travels of Sholem Aleichem and Menakhem Mendl</div>
       </div>
     </a> 
-    <div class='source-credit'>http://sholemaleichem.org/writing-desk/</div>
+    <div class='source-credit'><a href="http://sholemaleichem.org/writing-desk/">Image Credit</a></div>
   </div>
   <div class="story-col">
     <a href='{{ "stories/berlin-story" | relative_url }}'>
@@ -112,7 +112,8 @@ permalink: /
         <img class="story-element-image" src='{{site.baseurl}}/images/stories/Berlin.jpg' alt="Jewish Café Culture in Berlin">
         <div class="text">Jewish Café Culture<br> in Berlin</div>
       </div>
-    </a> 
+    </a>
+    <div class='source-credit'><a href="https://www.ullsteinbild.de/?82231788017539342720">Romanisches Cafe, Berlin. Ullstein Bild.</a></div>
   </div>
   <div class="story-col">
     <a href='{{ "stories/newyork-story" | relative_url }}'>
