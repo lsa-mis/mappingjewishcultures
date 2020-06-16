@@ -12,27 +12,6 @@ body,
     z-index: 1
 }
 
-/*#StoryMap {*/
-    /*!*display:none;*!*/
-    /*position: absolute;*/
-    /*height: 500px;*/
-    /*width: 500px;*/
-    /*z-index:10;*/
-    /*top: 50px;*/
-/*}*/
-
-/*iframe{*/
-    /*display:none;*/
-    /*position: absolute;*/
-    /*height: 90%;*/
-    /*width: 90%;*/
-    /*z-index:10;*/
-    /*top: 5%;*/
-    /*left: 5%;*/
-    /*bottom: 5%;*/
-    /*right: 5%;*/
-/*}*/
-
 .btns {
     position: absolute;
     top: 85px;
@@ -49,10 +28,7 @@ body,
     top: 2px;
     left: 2px;
     font-size: 30px;
-    /* height: 100%;
-    width: 100%; */
     z-index: 7;
-    /* color: #ffffff; */
 }
 
 .tundra.dijitSliderImageHandleH {
@@ -75,14 +51,6 @@ body,
     margin: auto;
     position: relative;
     min-height: 50px;
-    /*margin-left:auto;*/
-    /*margin-right:auto;*/
-    /*top: 89%;*/
-    /*left: 33%;*/
-    /* margin: 20px 20px 20px 20px; */
-    /*height: 10%;*/
-    /*width: 33%;*/
-    /* background-color: #7db0cc; */
     z-index: 2;
 
 }
@@ -100,26 +68,21 @@ body,
     float: left;
     width: 20%;
     min-width: 50px;
-    /*background-color: #ffffff;*/
     background-color: #7db0cc;
     font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-    /*font-size: 14px;*/
     font-size: .74em;
     color: #323232;
     text-align: center;
     border-radius: 5px;
     border-color: rgba(0,0,0,0);
-    /*padding: 5px;*/
 }
 
 #endYear{
     float: right;
     width: 20%;
     min-width: 50px;
-    /*background-color: #ffffff;*/
     background-color: #7db0cc;
     font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-    /*font-size: 14px;*/
     font-size: .74em;
     color: #323232;
     text-align: center;
@@ -130,7 +93,6 @@ body,
 
 #yearRangeLabels{
     z-index: 5;
-    /*background-color: #7db0cc;*/
     padding-top: 2.5px;
     padding-bottom: 2.5px;
 }
@@ -141,13 +103,6 @@ body,
     /* padding: 5px; */
 
 }
-
-/* original design, blue background */
-/* .esri-popup__button.esri-popup__action{
-  display: inline-block;
-  background-color: #7db0cc;
-  border-radius: 10px;
-} */
 
 .esri-popup__button.esri-popup__action{
     display: inline-block;
@@ -166,7 +121,6 @@ body,
 }
 
 .esri-popup__feature-buttons{
-    /* background: rgba(0,0,0, 0.8); */
     background-color: #ffffff;
 }
 
@@ -191,21 +145,6 @@ body,
     color: #323232;
 }
 
-/*.dijitSliderImageHandle .dijitSliderImageHandleH {*/
-    /*background-color: #7db0cc;*/
-/*}*/
-
-/*.tundra .digitSliderFocused .digitSliderImageHandleH {*/
-    /*background: #7db0cc;*/
-/*}*/
-
-/*.tundra .dijitSliderImageHandleH {*/
-    /*background: #7db0cc;*/
-    /*width: 10px;*/
-    /*height: 20px;*/
-
-
-
 /*Desktop*/
 @media screen and (min-width: 700px) {
     #viewDiv {
@@ -213,8 +152,6 @@ body,
         padding: 0;
         top: 120px;
         bottom: 0;
-        /* margin: 32px 0 0 0; */
-        /*height: 92%;*/
         width: 100%;
         z-index: 1
     }
@@ -230,28 +167,9 @@ body,
         border-radius: 10px;
     }
 
-    /*#searchTools {*/
-        /*display: inline-block;*/
-        /*vertical-align: middle;*/
-        /*margin: auto;*/
-        /*position: relative;*/
-        /*min-height: 50px;*/
-        /*!*margin-left:auto;*!*/
-        /*!*margin-right:auto;*!*/
-        /*!*top: 89%;*!*/
-        /*!*left: 33%;*!*/
-        /*!* margin: 20px 20px 20px 20px; *!*/
-        /*!*height: 10%;*!*/
-        /*!*width: 33%;*!*/
-        /*!* background-color: #7db0cc; *!*/
-        /*z-index: 2;*/
-
-    /*}*/
-
     #yearRangeContainer {
         max-height: inherit;
         z-index: 3;
-        /*background-color: #7db0cc;*/
         background-color: rgba(0,0,0,0);
         padding: 10px;
         width: 75%;
@@ -262,16 +180,13 @@ body,
         float: left;
         width: 20%;
         min-width: 50px;
-        /*background-color: #ffffff;*/
         background-color: #7db0cc;
         font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-        /*font-size: 14px;*/
         font-size: .74em;
         color: #323232;
         text-align: center;
         border-radius: 5px;
         border-color: rgba(0,0,0,0);
-        /*padding: 5px;*/
     }
 
     #endYear{
@@ -279,10 +194,8 @@ body,
         float: right;
         width: 20%;
         min-width: 50px;
-        /*background-color: #ffffff;*/
         background-color: #7db0cc;
         font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-        /*font-size: 14px;*/
         font-size: .74em;
         color: #323232;
         text-align: center;
@@ -293,7 +206,6 @@ body,
 
     #yearRangeLabels{
         z-index: 5;
-        /*background-color: #7db0cc;*/
         padding-top: 2.5px;
         padding-bottom: 2.5px;
     }

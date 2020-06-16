@@ -10,18 +10,15 @@
   background-repeat: no-repeat;
  
  /* Background image is fixed in the viewport so that it doesn't move when 
-    the content's height is greater than the image's height */
-  // background-attachment: fixed;
+    the content's height is greater than the image's height */ 
  
  /* This is what makes the background image rescale based
     on the container's size */
   background-size: cover;
-  // background-size: 1900px 300px;
+
  /* Set a background color that will be displayed
     while the background image is loading */
   background-color: rgba(112, 73, 56, 0.5);
-  // background-size: 1900px 300px;
-  // // background-position: -576px -1072px;
   margin-top: 0;
   width: 100vw;
   height: 200px;
@@ -36,7 +33,6 @@
 }
 
 .site-header-wrapper {
-  // background: rgba(112, 73, 56, 0.5);
   height: 200px;
   
 }
@@ -145,15 +141,6 @@
   }
 }
 
-// h2 {
-//   color: #000;
-//   font-style: normal;
-//   font-weight: bold;
-//   font-size: 28px;
-//   line-height: 44px;
-// }
-
-
 /**
  * Site footer
  */
@@ -161,8 +148,6 @@
   border-top: 1px solid $link-base-color;
   padding: $spacing-unit 0;
   background: $footer-background-color;
-  // height: 100%;
-  // width: 100%;
   font-family: 'Open Sans', sans-serif;
 
   a {
@@ -182,11 +167,6 @@
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
 }
-
-// .footerlink {
-//   color: white;
-//   text-decoration: underline;
-// }
 
 .feed-subscribe .svg-icon {
   padding: 5px 5px 2px 0
@@ -210,7 +190,6 @@
 }
 
 .people-col {
-  // width: calc(100% - (#{$spacing-unit} / 2));
   width: 45%;
 }
 
@@ -222,7 +201,6 @@
   float: right;
   padding: 7px;
   margin: 5px;
-  // background-color: $link-base-color;
   background-image: linear-gradient(to bottom right, $link-base-color, lighten($link-base-color, 15%));
   color: $code-background-color;
   border-radius: 10px;
@@ -233,11 +211,9 @@
 }
 
 #stories-button {
-  // float: center;
-  // background-color: $link-base-color;
   height: 50px;
-  width: 60%;
-  font-size: 30px;
+  width: 40%;
+  font-size: 1em;
   border-radius: 10px;
   background-image: linear-gradient(to bottom right, $link-base-color, lighten($link-base-color, 15%));
 
@@ -247,12 +223,10 @@
 }
 
 .story-button-small {
-  // float: center;
-  // background-color: $link-base-color;
   background-image: linear-gradient(to bottom right, $link-base-color, lighten($link-base-color, 15%));
   height: 30px;
-  width: 20%;
-  font-size: 16px;
+  width: 22%;
+  font-size: .75em;
   margin-top: 10px;
   border-radius: 10px;
 
@@ -268,7 +242,6 @@
 .explore-col-wrapper,
 .explore-data-col-wrapper,
 .story-col-wrapper {
-  // @include relative-font-size(0.9);
   color: $text-color;
   display: flex;
   flex-direction: row;
@@ -316,34 +289,28 @@
   }
 
   .story-element-image {
-    // width: 50%;
     padding-top: 5px;
     height: 150px;
   }
 
   .explore-col-title {
-  // .story-col-title {
+
     font-size: 26px;
     font-weight: bold;
     color: $subheader-text-base-color;
   }
 
   .explore-col-text {
-  // .story-col-text {
     padding-left: 5px;
     font-size: $base-font-size;
-    // font-weight: bold;
     color: $subheader-text-base-color;
     width: 55%;
     float: right;
   }
 
   .explore-page-link {
-  // .story-page-link {
-    // color: $site-title-color;
     color: $subheader-text-base-color;
     font-weight: bold;
-    // line-height: $base-line-height;
     a {
       padding: 0 20px;
     
@@ -358,10 +325,6 @@
   color: $link-base-color;
   font-style: italic;
 }
-
-// .story-col {
-//   width: 22%;
-// }
 
 .source-credit {
   font-size: 9px;
@@ -474,97 +437,6 @@
     margin-top: $spacing-unit;
   }
 }
-// .post-list-heading {
-//   @include relative-font-size(1.75);
-// }
-
-// .post-list {
-//   margin-left: 0;
-//   list-style: none;
-
-//   > li {
-//     margin-bottom: $spacing-unit;
-//   }
-// }
-
-// .post-meta {
-//   font-size: $small-font-size;
-//   color: $brand-color;
-// }
-
-// .post-link {
-//   display: block;
-//   @include relative-font-size(1.5);
-// }
-
-
-
-/**
- * Page
- */
-// .post-header {
-//   margin-bottom: $spacing-unit;
-// }
-
-// .post-title,
-// .post-content h1 {
-//   @include relative-font-size(2.625);
-//   letter-spacing: -1px;
-//   line-height: 1.15;
-
-//   @media screen and (min-width: $on-large) {
-//     @include relative-font-size(2.625);
-//   }
-// }
-
-// .post-content {
-//   margin-bottom: $spacing-unit;
-//   height: 600px;
-//   overflow-y: scroll;
-
-//   h1 {
-//     color: $header-base-color;
-//     // font-size: 32px;
-//   }
-
-//   h1, h2, h3 { 
-//     margin-top: $spacing-unit * 2; 
-//     color: $subheader-text-base-color;
-//   }
-
-//   h4, h5, h6 { 
-//     margin-top: $spacing-unit;
-//     color: $subheader-text-base-color;
-//   }
-
-//   h2 {
-//     @include relative-font-size(1.75);
-
-//     @media screen and (min-width: $on-large) {
-//       @include relative-font-size(2);
-//     }
-//   }
-
-//   h3 {
-//     @include relative-font-size(1.375);
-
-//     @media screen and (min-width: $on-large) {
-//       @include relative-font-size(1.625);
-//     }
-//   }
-
-//   h4 {
-//     @include relative-font-size(1.25);
-//   }
-
-//   h5 {
-//     @include relative-font-size(1.125);
-//   }
-//   h6 {
-//     @include relative-font-size(1.0625);
-//   }
-// }
-
 
 .social-media-list {
   display: table;
@@ -620,219 +492,6 @@
   }
 }
 
-// **************************
-// *********Cities Bits******
-// **************************
-
-/*Mobile*/
-#viewDiv {
-  // position: fixed;
-  padding: 0;
-  top: 0px;
-  bottom:5%;
-  width: 100%;
-  height: 100vh;
-  // z-index: 1
-}
-
-.btns {
-  position: absolute;
-  top: 85px;
-  left: 14.5px;
-  height: 32px;
-  width: 32px;
-  z-index: 7;
-  background-color: #ffffff;
-}
-
-/* setting the style for the globe icon, which replaces the house icon in the home widget */
-.esri-icon-globe {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  font-size: 30px;
-  z-index: 7;
-}
-
-.tundra.dijitSliderImageHandleH {
-  background-color: black
-}
-
-#search {
-  position: fixed;
-  height: 5%;
-  width: 100%;
-  bottom: 0;
-  z-index: 1;
-  min-height: 40px;
-  background-color: rgba(0,0,0,0.8);
-}
-
-#searchTools {
-  display: inline-block;
-  vertical-align: middle;
-  margin: auto;
-  position: relative;
-  min-height: 50px;
-  z-index: 2;
-
-}
-
-#yearRangeContainer {
-  z-index: 3;
-  background-color: rgba(0,0,0,0);
-  padding: 5px;
-  width: 50%;
-  margin: auto;
-}
-
-#startYear{
-  float: left;
-  width: 20%;
-  min-width: 50px;
-  background-color: #7db0cc;
-  font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 1em;
-  color: #323232;
-  text-align: center;
-  border-radius: 5px;
-  border-color: rgba(0,0,0,0);
-}
-
-#endYear{
-  float: right;
-  width: 20%;
-  min-width: 50px;
-  background-color: #7db0cc;
-  font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 1em;
-  color: #323232;
-  text-align: center;
-  border-radius: 5px;
-  border-color: rgba(0,0,0,0);
-
-}
-
-#yearRangeLabels{
-  z-index: 5;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
-}
-
-.esri-popup__action-text{
-  font-size: 16px;
-  color: #323232;
-}
-
-.esri-popup__button.esri-popup__action{
-  display: inline-block;
-  background-color: #7db0cc;
-  border-radius: 10px;
-  padding: 10px 16px;
-}
-
-.esri-popup__header-title{
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.esri-feature__text.esri-feature__content-element{
-  font-size: 16px;
-}
-
-.esri-popup__feature-buttons{
-  background-color: #ffffff;
-}
-
-.esri-popup__feature-buttons, .esri-popup__feature-buttons{
-  font-weight: 400;
-  font-size: 12px;
-  position: relative;
-  display: flex;
-  justify-content: flex-start;
-  flex: 0 0 auto;
-  padding: 5px;
-}
-
-.esri-popup__feature-buttons .esri-popup__actions{
-  padding: 3px 3px;
-  display: flex;
-  flex: 2;
-  align-items: center;
-}
-
-.esri-popup__icon{
-  color: #323232;
-}
-
-/*Desktop*/
-@media screen and (min-width: 700px) {
-  #viewDiv {
-      // position: fixed;
-      padding: 0;
-      top: 120px;
-      bottom: 0;
-      width: 100%;
-      // z-index: 1
-  }
-  #search {
-      // position: fixed;
-      height: 5%;
-      width: 33%;
-      bottom: 5%;
-      left: 33%;
-      // z-index: 1;
-      min-height: 40px;
-      background-color: rgba(0,0,0,0.7);
-      border-radius: 10px;
-  }
-
-  #yearRangeContainer {
-      max-height: inherit;
-      z-index: 3;
-      /*background-color: #7db0cc;*/
-      background-color: rgba(0,0,0,0);
-      padding: 10px;
-      width: 75%;
-      margin: auto;
-  }
-
-  #startYear{
-      float: left;
-      width: 20%;
-      min-width: 50px;
-      background-color: #7db0cc;
-      font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 1em;
-      color: #323232;
-      text-align: center;
-      border-radius: 5px;
-      border-color: rgba(0,0,0,0);
-  }
-
-  #endYear{
-      max-height: inherit;
-      float: right;
-      width: 20%;
-      min-width: 50px;
-      background-color: #7db0cc;
-      font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 1em;
-      color: #323232;
-      text-align: center;
-      border-radius: 5px;
-      border-color: rgba(0,0,0,0);
-
-  }
-
-  #yearRangeLabels{
-      z-index: 5;
-      padding-top: 2.5px;
-      padding-bottom: 2.5px;
-  }
-}
-
-
 // Buttons with text over image elements
 
 .box{
@@ -853,4 +512,9 @@
   font-size: $base-font-size * 0.75;
   color: white;
   width: 100%; /* Set the width of the positioned div */
+}
+
+
+.section-description-index {
+  padding-top: 20px;
 }
