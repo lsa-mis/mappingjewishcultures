@@ -49,7 +49,7 @@ permalink: /cities/
 <h2>View Stories</h2>
 <div class="button-collection">
   <button class="story-button-small"><a href='{{ "stories/berlin-story" | relative_url }}'>Berlin</a></button>
-  <button class="story-button-small"><a href='{{ "stories/newyork-story" | relative_url }}'>New york</a></button>
+  <button class="story-button-small"><a href='{{ "stories/newyork-story" | relative_url }}'>New York</a></button>
   <button class="story-button-small"><a href='http://scalar.usc.edu/works/odessa/a-brief-history-of-odessa?path=caf-culture-in-the-jewish-city' target='blank'>Odessa</a></button>
   <button class="story-button-small"><a href='{{ "stories/vienna-story" | relative_url }}'>Vienna</a></button>
   <button class="story-button-small"><a href='{{ "stories/yiddish-story" | relative_url }}'>Jerusalem</a></button>
