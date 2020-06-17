@@ -50,7 +50,7 @@ permalink: /
   <div class="story-col">
     <a href='{{ "stories/women-cafe-story" | relative_url }}'>
       <div class="box">
-        <img class="story-element-image" src='{{site.baseurl}}/images/stories/women.png' alt="Women in the Café">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/women.png' alt="Women smoking at a table in a café">
         <div class="text">Women in the Café<br>&nbsp;</div>
       </div>
     </a> 
@@ -59,7 +59,7 @@ permalink: /
   <div class="story-col">
     <a href='{{ "stories/warsaw-story" | relative_url }}'>
       <div class="box">
-        <img class="story-element-image" src='{{site.baseurl}}/images/stories/warsaw.jpg' alt="Jewish Café Culture in Warsaw">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/warsaw.jpg' alt="Watercolor painting of patrons at a café counter">
         <div class="text">Jewish Café Culture<br> in Warsaw</div>
       </div>
     </a> 
@@ -68,16 +68,16 @@ permalink: /
   <div class="story-col">
     <a href='{{ "stories/sholem-story" | relative_url }}'>
       <div class="box">
-        <img class="story-element-image" src='{{site.baseurl}}/images/stories/sholem.jpg' alt="The Travels of Sholem Aleichem and Menakhem Mendl">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/sholem.jpg' alt="Middle aged man with round eye glasses sitting at a writing desk">
         <div class="text">The Travels of Sholem Aleichem and Menakhem Mendl</div>
       </div>
     </a> 
-    <div class='source-credit'><a href="http://sholemaleichem.org/writing-desk/">Image Credit</a></div>
+    <div class='source-credit'><a href="http://sholemaleichem.org/writing-desk/">Sholem Aleichem</a></div>
   </div>
   <div class="story-col">
     <a href='{{ "stories/berlin-story" | relative_url }}'>
       <div class="box">
-        <img class="story-element-image" src='{{site.baseurl}}/images/stories/Berlin.jpg' alt="Jewish Café Culture in Berlin">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/Berlin.jpg' alt="Watercolor of a birds-eye view of a cafe with multiple tables and patrons">
         <div class="text">Jewish Café Culture<br> in Berlin</div>
       </div>
     </a>
@@ -86,7 +86,7 @@ permalink: /
   <div class="story-col">
     <a href='{{ "stories/newyork-story" | relative_url }}'>
       <div class="box">
-        <img class="story-element-image" src='{{site.baseurl}}/images/stories/New-York.png' alt="Jewish Café Culture in New York">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/New-York.png' alt="Early black and white photograph of men standing together observing something ">
         <div class="text">Jewish Café Culture<br> in New York</div>
       </div>
     </a> 

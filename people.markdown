@@ -10,8 +10,8 @@ permalink: /people/
     <h1 class='section-title' id='people-title'>Browse By People</h1>
     <!-- <a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank"><button id="people-button">Explore the full visualization<br />(opens in new window)</button></a> -->
     <button id="people-button" ><a href="https://lsa-mis.github.io/interactive-network-viz/new-scroll/docs/viz3/people_viz.html" target="_blank">Explore the full visualization<br />(opens in new window)</a></button>
-    <h4>Learn how to use the network visualization tool</h4>
-    <h4>Why visualize people as a network?</h4>
+    <p>Learn how to use the network visualization tool</p>
+    <h2>Why visualize people as a network?</h2>
     <p>A <strong>network graph</strong> is a visual representation of the interconnections between many entities.</p>
     <p>When it comes to relationships between individuals, we often think of direct relationships: friendships, collaborations, romances. But individuals are   also richly interconnected through mutual acquaintances, through cities, and through cafés.</p>
     <p>Let's take the example of Sholem Asch, the Yiddish novelist and playwright. Here he is shown as a <strong>circle</strong> or <strong>node</strong>.</p>

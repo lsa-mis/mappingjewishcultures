@@ -35,7 +35,7 @@ permalink: /stories/
         <img src='{{site.baseurl}}/images/stories/vienna-cropped.jpg' alt="jewish cafe culture in vienna">
           <span>Jewish Café Culture in Vienna</span>                     
       </a>
-      <div class='source-credit'><a href="https://upload.wikimedia.org/wikipedia/commons/1/1d/Cafe-Griensteidl-1896.jpg">Image Credit</a></div>
+      <div class='source-credit'><a href="https://upload.wikimedia.org/wikipedia/commons/1/1d/Cafe-Griensteidl-1896.jpg">Wikimedia Cafe-Griensteidl-1896</a></div>
     </div>
     <div class="story-col">
       <a href='{{ "stories/warsaw-story" | relative_url }}'>
@@ -49,21 +49,21 @@ permalink: /stories/
         <img src='{{site.baseurl}}/images/stories/odessa-cropped.png' alt="jewish cafe culture in odessa">
           <span>Mapping Jewish Café Culture in Odessa</span>                     
       </a>
-      <div class='source-credit'><a href="http://www.loc.gov/pictures/resource/ppmsc.03861/">Image Credit</a></div>
+      <div class='source-credit'><a href="http://www.loc.gov/pictures/resource/ppmsc.03861/">Library of Congress: [Rue Richelieu, Odessa, Russia, (i.e., Ukraine)]</a></div>
     </div>
     <div class="story-col">
       <a href='{{ "stories/agnon-story" | relative_url }}'>
         <img src='{{site.baseurl}}/images/stories/agnon1912-cropped.jpg' alt="s y agnon in the cafe">
           <span>S.Y. Agnon in the Café</span>                     
       </a>
-      <div class='source-credit'><a href="https://upload.wikimedia.org/wikipedia/commons/f/ff/Shimoni%2C_Brenner%2C_Azar%2C_Agnon.jpg">Image Credit</a></div>
+      <div class='source-credit'><a href="https://upload.wikimedia.org/wikipedia/commons/f/ff/Shimoni%2C_Brenner%2C_Azar%2C_Agnon.jpg">Wikimedia</a></div>
     </div>
     <div class="story-col">
       <a href='{{ "stories/sholem-story" | relative_url }}'>
         <img src='{{site.baseurl}}/images/stories/sholem-cropped.jpg' alt="travels of sholem aleichem">
           <span>The Travels of Sholem Aleichem and Menakhem Mendl</span>                     
       </a>
-      <div class='source-credit'><a href="http://sholemaleichem.org/writing-desk/">Image Credit</a></div>
+      <div class='source-credit'><a href="http://sholemaleichem.org/writing-desk/">Sholem Aleichem</a></div>
     </div>
     <div class="story-col">
       <a href='{{ "stories/women-cafe-story" | relative_url }}'>
@@ -77,7 +77,7 @@ permalink: /stories/
         <img src='{{site.baseurl}}/images/stories/yiddish_theater-cropped.jpg' alt="yiddish theater">
           <span>Yiddish Theater and Cabaret</span>                     
       </a>
-      <div class='source-credit'><a href="https://collections.mcny.org/Collection/Grand-Theater,-Jacob-B.-Adler,-King-Lear-close-up.-2F3XC5UNBCDZ.html">Image Credit</a></div>
+      <div class='source-credit'><a href="https://collections.mcny.org/Collection/Grand-Theater,-Jacob-B.-Adler,-King-Lear-close-up.-2F3XC5UNBCDZ.html">Museum of the City of New York</a></div>
     </div>
   </div>
 </div> 
