@@ -295,7 +295,7 @@ require([
     });
 
     //check for window size, if less than 700px in width, change center of view
-    var mapCenter = window.innerWidth > 700 ? [-23,42]:[23,42];
+    var mapCenter = window.innerWidth > 800 ? [-23,42]:[23,42];
 
     var view = new MapView({
         container: "viewDiv",
