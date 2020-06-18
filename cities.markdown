@@ -17,7 +17,9 @@ permalink: /cities/
       <div id ="yearRangeContainer">
         <div id="yearRange" name="yearRange">
           <div id="yearRangeLabels">
+              <label for="startYear"></label>
               <input type="number" id="startYear" class="sliderLabel" onchange="updateSlider(this)"/>
+              <label for="endYear"></label>
               <input type="number" id="endYear" class="sliderLabel" onchange="updateSlider(this)"/>
           </div>
         </div>
