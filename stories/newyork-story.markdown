@@ -1,6 +1,6 @@
 ---
 layout: page
-
+title: Story
 permalink: stories/newyork-story/
 ---
 
