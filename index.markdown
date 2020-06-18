@@ -86,7 +86,7 @@ permalink: /
   <div class="story-col">
     <a href='{{ "stories/newyork-story" | relative_url }}'>
       <div class="box">
-        <img class="story-element-image" src='{{site.baseurl}}/images/stories/New-York.png' alt="Early black and white photograph of men standing together observing something ">
+        <img class="story-element-image" src='{{site.baseurl}}/images/stories/New-York.png' alt="Early black and white photograph of men standing together observing something">
         <div class="text">Jewish Café Culture<br> in New York</div>
       </div>
     </a> 
