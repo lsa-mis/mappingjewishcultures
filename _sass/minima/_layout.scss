@@ -338,7 +338,10 @@
 .footer-col-wrapper,
 .social-links {
   @include relative-font-size(0.9375);
-  // color: $brand-color;
+  color: white;
+}
+.creative-common-links {
+  @include relative-font-size(0.8);
   color: white;
 }
 
