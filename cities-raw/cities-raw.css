@@ -12,6 +12,27 @@ body,
     z-index: 1
 }
 
+/*#StoryMap {*/
+    /*!*display:none;*!*/
+    /*position: absolute;*/
+    /*height: 500px;*/
+    /*width: 500px;*/
+    /*z-index:10;*/
+    /*top: 50px;*/
+/*}*/
+
+/*iframe{*/
+    /*display:none;*/
+    /*position: absolute;*/
+    /*height: 90%;*/
+    /*width: 90%;*/
+    /*z-index:10;*/
+    /*top: 5%;*/
+    /*left: 5%;*/
+    /*bottom: 5%;*/
+    /*right: 5%;*/
+/*}*/
+
 .btns {
     position: absolute;
     top: 85px;
@@ -28,11 +49,18 @@ body,
     top: 2px;
     left: 2px;
     font-size: 30px;
+    /* height: 100%;
+    width: 100%; */
     z-index: 7;
+    /* color: #ffffff; */
 }
 
 .tundra.dijitSliderImageHandleH {
     background-color: black
+}
+
+.dijitReset{
+    padding: 1px;
 }
 
 #search {
@@ -41,8 +69,8 @@ body,
     width: 100%;
     bottom: 0;
     z-index: 1;
-    min-height: 40px;
-    background-color: rgba(0,0,0,0.8);
+    min-height: 55px;
+    background-color: rgba(155, 135, 128, 0.7);
 }
 
 #searchTools {
@@ -51,6 +79,14 @@ body,
     margin: auto;
     position: relative;
     min-height: 50px;
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
+    /*top: 89%;*/
+    /*left: 33%;*/
+    /* margin: 20px 20px 20px 20px; */
+    /*height: 10%;*/
+    /*width: 33%;*/
+    /* background-color: #7db0cc; */
     z-index: 2;
 
 }
@@ -60,30 +96,36 @@ body,
     /*background-color: #7db0cc;*/
     background-color: rgba(0,0,0,0);
     padding: 5px;
-    width: 50%;
+    width: 75%;
     margin: auto;
+    height: 50%;
 }
 
 #startYear{
     float: left;
     width: 20%;
     min-width: 50px;
-    background-color: #7db0cc;
+    /*background-color: #ffffff;*/
+    background-color: #f0ecea;
     font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: .74em;
+    /*font-size: 14px;*/
+    font-size: .75em;
     color: #323232;
     text-align: center;
     border-radius: 5px;
     border-color: rgba(0,0,0,0);
+    /*padding: 5px;*/
 }
 
 #endYear{
     float: right;
     width: 20%;
     min-width: 50px;
-    background-color: #7db0cc;
+    /*background-color: #ffffff;*/
+    background-color: #f0ecea;
     font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: .74em;
+    /*font-size: 14px;*/
+    font-size: .75em;
     color: #323232;
     text-align: center;
     border-radius: 5px;
@@ -93,6 +135,7 @@ body,
 
 #yearRangeLabels{
     z-index: 5;
+    /*background-color: #7db0cc;*/
     padding-top: 2.5px;
     padding-bottom: 2.5px;
 }
@@ -104,9 +147,23 @@ body,
 
 }
 
+/* original design, blue background */
+/* .esri-popup__button.esri-popup__action{
+  display: inline-block;
+  background-color: #7db0cc;
+  border-radius: 10px;
+} */
+
 .esri-popup__button.esri-popup__action{
     display: inline-block;
-    background-color: #7db0cc;
+    background-color: rgba(155, 135, 128, 0.7);
+    border-radius: 10px;
+    padding: 10px 16px;
+}
+
+.esri-popup__button.esri-popup__action:hover{
+    background-color: #A5181E;
+    display: inline-block;
     border-radius: 10px;
     padding: 10px 16px;
 }
@@ -121,6 +178,7 @@ body,
 }
 
 .esri-popup__feature-buttons{
+    /* background: rgba(0,0,0, 0.8); */
     background-color: #ffffff;
 }
 
@@ -145,6 +203,38 @@ body,
     color: #323232;
 }
 
+.esri-layer-list__item-container:hover{
+    background-color: #A5181E;
+}
+
+.esri-layer-list__item-title:hover{
+    color: black;
+}
+
+.esri-view-width-xsmall .esri-popup--is-docked-bottom-center .esri-popup__main-container {
+    width: 100%;
+    max-height: 35%;
+    position: absolute;
+    bottom: 55px;
+    box-shadow: none;
+}
+
+
+/*.dijitSliderImageHandle .dijitSliderImageHandleH {*/
+    /*background-color: #7db0cc;*/
+/*}*/
+
+/*.tundra .digitSliderFocused .digitSliderImageHandleH {*/
+    /*background: #7db0cc;*/
+/*}*/
+
+/*.tundra .dijitSliderImageHandleH {*/
+    /*background: #7db0cc;*/
+    /*width: 10px;*/
+    /*height: 20px;*/
+
+
+
 /*Desktop*/
 @media screen and (min-width: 700px) {
     #viewDiv {
@@ -152,6 +242,8 @@ body,
         padding: 0;
         top: 120px;
         bottom: 0;
+        /* margin: 32px 0 0 0; */
+        /*height: 92%;*/
         width: 100%;
         z-index: 1
     }
@@ -162,14 +254,34 @@ body,
         bottom: 5%;
         left: 33%;
         z-index: 1;
-        min-height: 40px;
-        background-color: rgba(0,0,0,0.7);
+        min-height: 55px;
+        background-color: rgba(155, 135, 128, 0.7);
         border-radius: 10px;
     }
 
+    /*#searchTools {*/
+        /*display: inline-block;*/
+        /*vertical-align: middle;*/
+        /*margin: auto;*/
+        /*position: relative;*/
+        /*min-height: 50px;*/
+        /*!*margin-left:auto;*!*/
+        /*!*margin-right:auto;*!*/
+        /*!*top: 89%;*!*/
+        /*!*left: 33%;*!*/
+        /*!* margin: 20px 20px 20px 20px; *!*/
+        /*!*height: 10%;*!*/
+        /*!*width: 33%;*!*/
+        /*!* background-color: #7db0cc; *!*/
+        /*z-index: 2;*/
+
+    /*}*/
+
     #yearRangeContainer {
         max-height: inherit;
+        height: 50%;
         z-index: 3;
+        /*background-color: #7db0cc;*/
         background-color: rgba(0,0,0,0);
         padding: 10px;
         width: 75%;
@@ -180,13 +292,16 @@ body,
         float: left;
         width: 20%;
         min-width: 50px;
-        background-color: #7db0cc;
+        /*background-color: #ffffff;*/
+        background-color: #f0ecea;
         font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: .74em;
+        /*font-size: 14px;*/
+        font-size: .75em;
         color: #323232;
         text-align: center;
         border-radius: 5px;
         border-color: rgba(0,0,0,0);
+        /*padding: 5px;*/
     }
 
     #endYear{
@@ -194,9 +309,11 @@ body,
         float: right;
         width: 20%;
         min-width: 50px;
-        background-color: #7db0cc;
+        /*background-color: #ffffff;*/
+        background-color: #f0ecea;
         font-family: "Avenir Next W00","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: .74em;
+        /*font-size: 14px;*/
+        font-size: .75em;
         color: #323232;
         text-align: center;
         border-radius: 5px;
@@ -206,6 +323,7 @@ body,
 
     #yearRangeLabels{
         z-index: 5;
+        /*background-color: #7db0cc;*/
         padding-top: 2.5px;
         padding-bottom: 2.5px;
     }

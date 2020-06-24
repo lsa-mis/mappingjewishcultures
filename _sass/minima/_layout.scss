@@ -248,6 +248,7 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding: $spacing-unit * 2;
 
   .explore-col{
     width: $content-width / 2.5;

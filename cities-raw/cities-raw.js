@@ -57,10 +57,10 @@ require([
 
 
     var tilesytle = new VectorTileLayer({ //Add the vector tile layer of the gray basemap. In order to have the correct style rendering, specify the style (.json) rather than the vector tile service (the same service is used for multiple basemaps)
-        url: "https://umich.maps.arcgis.com/sharing/rest/content/items/291da5eab3a0412593b66d384379f89f/resources/styles/root.json",
-        //portalItem: {
-        //    id: "93d2afe8c4f94d15bc193c1fe5282d09"
-        //},
+        // url: "https://umich.maps.arcgis.com/sharing/rest/content/items/291da5eab3a0412593b66d384379f89f/resources/styles/root.json",
+        portalItem: {
+           id: "31e2050132be4b95adde616ff0291583"
+        },
         title: "Basemap",
         listMode: "hide"
         //visible at all scales
@@ -106,7 +106,7 @@ require([
     };
 
     var cities = new FeatureLayer({
-        url: "https://services1.arcgis.com/4ezfu5dIwH83BUNL/arcgis/rest/services/Mapping_Jewish_Diasporic_Cultures_Cities/FeatureServer/0",
+        url: "https://services1.arcgis.com/4ezfu5dIwH83BUNL/arcgis/rest/services/Mapping_Jewish_Diasporic_Cultures_Cities_(New_Site)/FeatureServer/0",
         popupTemplate: citiesTemplate,
         title: "Cities",
         outFields: ["*"], //ensures all the attribute fields are included in the layer
@@ -158,7 +158,7 @@ require([
     };
 
     var cafes = new FeatureLayer({
-        url: "https://services1.arcgis.com/4ezfu5dIwH83BUNL/arcgis/rest/services/Cafes_and_Landmarks/FeatureServer/0",
+        url: "https://services1.arcgis.com/4ezfu5dIwH83BUNL/arcgis/rest/services/Cafes_and_Landmarks_(View)/FeatureServer/0",
         title: "Cafes and Landmarks",
         popupTemplate: cafesTemplate
     });
@@ -295,12 +295,12 @@ require([
     });
 
     //check for window size, if less than 700px in width, change center of view
-    var mapCenter = window.innerWidth > 800 ? [-23,42]:[23,42];
+    var mapCenter = window.innerWidth > 700 ? [-23,42]:[23,42];
 
     var view = new MapView({
         container: "viewDiv",
         map: map,
-        zoom: 3,
+        zoom: 1,
         // center: [-23,42],
         center: mapCenter,
         popup: {
@@ -311,7 +311,7 @@ require([
             }
         },
         constraints: {
-            minZoom: 3,
+            minZoom: 0,
             maxZoom: 15
         }
     });
