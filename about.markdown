@@ -80,6 +80,8 @@ permalink: /about/
                 <li>Professor Deborah Dash Moore</li>
                 <li>Alix Keener</li>
                 <li>Sarah Clayton</li>
+                <li>Maria Laitan</li>
+                <li>Rick Smoke</li>
             </ul>
           </td>
           <td>
@@ -87,6 +89,7 @@ permalink: /about/
                 <li>Rachel Deblinger</li>
                 <li>Peter Knoop</li>
                 <li>Samiha Matin</li>
+                <li>Whitney Dye</li>
             </ul>
           </td>
           <td>
@@ -94,6 +97,7 @@ permalink: /about/
                 <li>Justin Joque</li>
                 <li>Yotam Fisher-Pinsker</li>
                 <li>Nikki Shultz</li>
+                <li>Jeremiah Cook</li>
             </ul>
           </td>
         </tr>
