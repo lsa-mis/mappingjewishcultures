@@ -46,6 +46,10 @@ author:
   name: Prof. Shachar Pinsker
   email: spinsker@umich.edu
 
+feedback:
+  url: https://umich.qualtrics.com/jfe/form/SV_5cdtwixWPddXByd
+  url_text: click here 
+
 minima: 
   social_links: 
     twitter: 'spinsker'

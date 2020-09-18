@@ -3,14 +3,10 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col">
-      {%- if site.author %}
-      If you have questions, comments, or any other feedback, please contact: 
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email footerlink" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+      {%- if site.feedback %}
+      <ul class="contact-list"> 
+          {% if site.feedback.url -%}
+            <li>For feedback on this website <a class="u-email footerlink" href="{{ site.feedback.url }}" target="_blank">{{ site.feedback.url_text }}</a></li>
           {%- endif %}
         </ul>
       {%- endif %}
